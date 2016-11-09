@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Search Results</title>
+        <script type="text/javascript" src="Suggest.js"></script>
+        <style>
+    h2{
+        font-family: verdana;
+        text-align: :center;
+    }
+    h3{
+        font-family: verdana;
+    }
+    p{
+        font-size: 50%
+    }
+    div.suggestions {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;   
+    background-color: white;
+    }
+
+    div.suggestions div {
+    cursor: default;
+    padding: 0px 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    }
+
+    div.suggestions div.current {
+    background-color: gray;
+    color: white;
+    }
+        </style>
+    </head>
+    <body>
+        <h2><b>eBay Search Web Site</b></h2>
+        <hr>
+        <h4>
+        <a href = " ./index.html">ebay</a> 
+        <a href = " ./keywordSearch.html">Keyword Search</a> 
+        <a href = " ./getItem.html">Item Search</a>
+        </h4>
+        <h3><b>Keyword Search</b><h3>
+        <br>
+        <form action="search" method="GET" id="searchForm">
+
+            <input type="text" name="q" class="form-control"  placeholder="Keyword here" id="searchTextBox">
+            <input type="hidden" name="numResultsToSkip" value="0">
+            <input type="hidden" name="numResultsToReturn" value="30">
+            <button class="btn btn-success" type="submit">Search</button>
+            <hr>
+    </body>
+</html>
