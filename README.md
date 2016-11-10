@@ -1,6 +1,6 @@
 # CS144
-CS144
-Web Application
+<p>CS144 </p><br/> 
+<a>Web Application</a><br/>
 Project name:
 A Sample Shopping Application Similar to eBay Auction Site
 Achieved data conversion and loading by designing BCNF relational schema and transforming the data in XML to MySQL.
